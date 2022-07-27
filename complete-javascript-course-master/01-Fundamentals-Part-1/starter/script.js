@@ -10,7 +10,7 @@ console.log(continent);
 console.log(population);
 
 //Data Types
-let isIsland = false;
+const isIsland = false;
 let language;
 
 console.log(typeof isIsland);
@@ -18,7 +18,5 @@ console.log(typeof country);
 console.log(typeof population);
 console.log(typeof language);
 
-//this is my change 1
-//Changed by Yashvi 
-
-//change by Pushpraj
+//let, const and var
+language = 'Hindi'; 
