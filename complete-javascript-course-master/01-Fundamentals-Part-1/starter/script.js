@@ -1,5 +1,3 @@
-alert('HI');
-
 //Values and Variables
 let country = 'India';
 let continent = 'Asia';
@@ -45,4 +43,17 @@ if (population > averagePoplulation) {
     console.log(`${country}'s population is above average`);
 } else {
     console.log(`${country}'s population is ${averagePoplulation - population} million below average`);
+}
+
+//Equality operators
+const numNeighbours = Number(prompt('How many neighbour countries does your countries have?'));
+
+if (numNeighbours === 1) {
+    console.log('Only 1 border');
+}
+else if (numNeighbours > 1) {
+    console.log('More than 1 border');
+}
+else {
+    console.log('No border');
 }
