@@ -56,4 +56,12 @@ else if (numNeighbours > 1) {
 }
 else {
     console.log('No border');
+}  
+
+//Logical operators
+if (language === 'English' && population < 50 && !isIsland) {
+    console.log(`${country} is the country you are looking for`);
+}
+else {
+    console.log(`${country} is not the country you are looking for`);
 }
